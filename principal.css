@@ -20,7 +20,6 @@ b {
     margin: 10px;
     font-size: 18px;
     border-radius: 20px;
-    background-color: #336079;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
   }

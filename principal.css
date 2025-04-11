@@ -1,0 +1,103 @@
+h1{ color:#0d567e; font-size:30px;font-family:"Tektur"; text-align: center;}
+h3{ color: #000000;font-size: 20px;font-family: "Maven Pro", sans-serif;text-align: center;line-height: 1.5;}
+h5{ color:#df9aaa;font-size:50px;font-family:"Tektur";text-align: center;}
+img.responsivo {
+    width: 680px;
+    height: 510px;
+    display: block;
+    margin: auto;
+  }
+.contenido {max-width: 1000px;margin: auto;padding: 10px;
+}
+
+b {
+    color: #336079;
+}
+  .boton {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #336079;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+
+  .boton:hover {
+    background-color: #f5d0e0;
+  }
+
+  .tektur {
+    font-family: 'Tektur', cursive;
+  }
+
+  .centrado {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+    body {
+      background-color:   lightblue;
+    }
+  
+    img.responsivo {
+      width: 180px;
+      height: auto;
+    }
+  
+    .boton {
+      font-size: 10px;
+      padding: 8px 12px;
+    }
+    h5{ color:#df9aaa;font-size:20px;font-family:"Tektur";text-align: center;}
+    h3{ color: #000000;font-size: 10px;font-family: "Maven Pro", sans-serif;text-align: center;line-height: 1.5;}
+    
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 700px) {
+    body {
+      background-color: #b7dcf4;
+    }
+  
+    img.responsivo {
+      width: 400px;
+      height: auto;
+    }
+  
+    .boton {
+      font-size: 14px;
+      padding: 10px 18px;
+    }
+  }
+  @media screen and (min-width: 701px) and (max-width: 1000px) {
+    body {
+      background-color: 	lightgoldenrodyellow;
+    }
+  
+    img.responsivo {
+      width: 550px;
+      height: auto;
+    }
+  
+    .boton {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+  }
+  @media screen and (min-width: 1001px) {
+    body {
+      background-color:rgb(255, 255, 255) ;
+    }
+  
+    img.responsivo {
+      width: 680px;
+      height: 510px;
+    }
+  
+    .boton {
+      font-size: 24px;
+      padding: 18px 32px;
+    }
+  }

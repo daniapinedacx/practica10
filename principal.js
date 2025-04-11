@@ -1,6 +1,5 @@
-
-function boton(texto, tipoFuente, alineacion, colortex, link, tam) {
-  let fuente;
+function boton(texto, tipoFuente, alineacion, colortex, link, fondo) {
+  let fuente
   switch (tipoFuente) {
     case 1:
       fuente = "Tektur";
@@ -31,11 +30,13 @@ function boton(texto, tipoFuente, alineacion, colortex, link, tam) {
   }
 
   document.write(
-   "<center><a href='" + link + "' class='boton' target='abajo' style='font-family:" + fuente + "; color:" + colortex + ";'>" +
-  texto + "</a><br></center>"
+    "<center><a href='" + link + "' class='boton' target='abajo' " +
+    "style='font-family:" + fuente + "; color:" + colortex + "; background-color:" + fondo + "; text-align:" + align + ";'>" +
+    texto + "</a><br></center>"
   );
 }
 
-boton("Colores", 1, "cen", "white", "https://htmlcolorcodes.com");
-boton("Descargar Imagen", 1, "cen", "white", "https://www.stockio.com");
-boton("Fonts", 1, "cen", "white", "https://www.fontshare.com/fonts/satoshi");
+
+boton("Colores", 1, "cen", "white", "https://htmlcolorcodes.com", "#002e47");
+boton("Descargar Imagen", 1, "cen", "white", "https://www.stockio.com", "#006777");
+boton("Fonts", 1, "cen", "white", "https://www.fontshare.com/fonts/satoshi", "#275187");
